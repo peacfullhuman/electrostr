@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .container{
+        max-width: 100%;
+    }
+
+    header{
+        max-width: 100%;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .main-info h1{
+        font-size: 2rem;
+    }
+
+    .main-info h2{
+        font-size: 1rem;
+    }
+
+    .wellcome-btns{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .wellcome-btns a{
+        text-align: center;
+    }
+
+    .merit svg{
+        width: 2rem;
+        height: 2rem;
+    }
+}
